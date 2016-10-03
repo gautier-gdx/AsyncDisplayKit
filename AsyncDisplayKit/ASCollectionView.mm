@@ -741,6 +741,7 @@ static NSString * const kCellReuseIdentifier = @"_ASCollectionViewCell";
 #pragma clang diagnostic pop
   
   cellNode.scrollView = nil;
+  cellNode.layoutAttributes = nil;
 }
 
 
